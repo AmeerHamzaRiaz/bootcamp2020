@@ -28,4 +28,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ stingy-crush.surge.sh/ --token ${{secrets.SURGETOKEN}}
+      run: surge ./ stingy-crush.surge.sh --token ${{secrets.SURGETOKEN}}
